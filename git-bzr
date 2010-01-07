@@ -25,7 +25,7 @@ function perror() {
 }
 
 if [ $# -lt 1 ] ; then
-    gitbzr_help
+    gitbzr_help_all
 fi
 
 command=$1
